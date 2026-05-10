@@ -6,6 +6,33 @@
 
 ---
 
+## 0. 目前現況確認（2026-05-10）
+
+> 本段為 2026-05-10 的重新驗證結果。以下「詳細過程」屬於 2026-04-14 的歷史操作紀錄，保留原文不更動。
+
+| 項目 | 目前狀態 | 說明 |
+|------|----------|------|
+| Git | ✅ 已安裝 | `git version 2.53.0.windows.2` |
+| GitHub CLI | ✅ 已安裝 | `gh version 2.89.0` |
+| GitHub CLI 登入 | ✅ 已登入 | 帳號 `superhs690317`，Protocol `https` |
+| Git 使用者資訊 | ✅ 已設定 | `user.name=Handsome`、`user.email=superhs690317@gmail.com` |
+| 測試 repo | ✅ 已存在 | `superhs690317/github-test` 為公開 repo |
+| 預設分支 | ✅ 已設定 | `master` |
+| 遠端同步 | ✅ 正常 | 本機 `master` 與 `origin/master` 同步 |
+| README.md | ✅ 已上傳 | 已存在於 repo 根目錄 |
+| index.html | ✅ 已上傳 | 已存在於 repo 根目錄 |
+| GitHub Pages | ✅ 已啟用 | 來源 `master` 分支 `/`，狀態 `built` |
+
+### 現況補充
+
+- Repo 網址：https://github.com/superhs690317/github-test
+- GitHub Pages：https://superhs690317.github.io/github-test/
+- 最近一次確認時間：2026-05-10（台灣時間）
+- 目前 `gh auth status` 顯示的 Token scopes 為：`gist`, `read:org`, `repo`, `workflow`
+- 歷史紀錄中曾使用過 `delete_repo` 權限刪除並重建 repo；這屬於歷史操作，故保留原文，不以目前 token scopes 覆蓋
+
+---
+
 ## 目錄
 
 1. [環境說明](#1-環境說明)
